@@ -7,8 +7,8 @@ setup(
   description = 'will retive latest version of softwatre',   # Give a short description about your library
   author = 'yuvaraj,naveen',                   # Type in your name
   author_email = 'navicpy@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  url = 'https://github.com/yuvarajicon/SVR',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/YuvarajIcon/SVR.git',    # I explain this later on
   keywords = ['VERSION', 'RETRIVER', 'UPDATE','LATEST','NEW','SOFTWARE','WEBPAGE','WEBCRWALING'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'urllib',
