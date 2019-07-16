@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'SVR',         # How you named your package folder (MyLib)
   packages = ['SVR'],   # Chose the same as "name"
-  version = '0.2',      # Start with a small number and increase it with every change you make
+  version = '0.3',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'will retive latest version of softwatre',   # Give a short description about your library
   author = 'yuvaraj,naveen',                   # Type in your name
