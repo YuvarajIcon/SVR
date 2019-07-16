@@ -2,10 +2,10 @@ from distutils.core import setup
 setup(
   name = 'SVR',         # How you named your package folder (MyLib)
   packages = ['SVR'],   # Chose the same as "name"
-  version = '0.4',      # Start with a small number and increase it with every change you make
+  version = '0.5',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Used to retrieve the latest version of a software and will return it as a string',   # Give a short description about your library
-  author = 'yuvaraj,naveen',                   # Type in your name
+  author = 'Yuvaraj Icon, Naveen',                   # Type in your name
   author_email = 'navicpy@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/yuvarajicon/SVR',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/YuvarajIcon/SVR.git',    # I explain this later on
