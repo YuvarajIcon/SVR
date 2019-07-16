@@ -1,2 +1,2 @@
-from SVR.Versions import svr
+import svr
 
