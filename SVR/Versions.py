@@ -18,6 +18,7 @@ class svr:
                result=re.search('Python (.*)</a>',line)
                b = result.group(1)
                return(b)
+        
                
     def ruby():
         page=urllib.request.urlopen('https://www.ruby-lang.org/en/downloads/')
@@ -41,15 +42,13 @@ class svr:
         #\c=urllib.parse.unquote(page)
         
         
-    file=open("x.txt","w")
-    file.write(str(c))
-    file.close()
-    q=str(c)
-    file.close()
-    s=open("x.txt","r")
-    for line in s:
-        
-        
+        file=open("x.txt","w")
+        file.write(str(c))
+        file.close()
+        q=str(c)
+        file.close()
+        s=open("x.txt","r")
+        for line in s:
            s=open("x.txt","w")
            #s.write(line)
            result=re.search('<p><b>(.*)</b></p>',line)
